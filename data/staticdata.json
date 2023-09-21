@@ -1,0 +1,133 @@
+{
+  "carouselCars": {
+    "source": [
+      "./assets/images/carousel/iris.avif",
+      "./assets/images/carousel/iris (1).avif",
+      "./assets/images/carousel/iris (2).avif",
+      "./assets/images/carousel/iris (3).avif"
+    ]
+  },
+
+  "cars": [
+    {
+      "name": "Mercedes-AMG GLE 53 4MATIC+ Coupé",
+      "startingPrice": 65000,
+      "defaultImage": "./assets/images/amg gle/iris.avif",
+      "colors": [
+        {
+          "polar white": {
+            "source": "./assets/images/amg gle/iris.avif",
+            "price": 600
+          }
+        },
+        {
+          "brilliant blue": {
+            "source": "./assets/images/amg gle/colors/iris.avif",
+            "price": 600
+          }
+        },
+        {
+          "emerald green": {
+            "source": "./assets/images/amg gle/colors/iris (1).avif",
+            "price": 600
+          }
+        }
+      ],
+      "wheelTypes": ["Alloy", "Steel", "Chrome"]
+    },
+    {
+      "name": "Mercedes-AMG E 53 4MATIC+",
+      "startingPrice": 70000,
+      "defaultImage": "./assets/images/amg gle/iris (1).avif",
+      "colors": [
+        {
+          "patagonia red bright": {
+            "source": "./assets/images/amg e 53 4matic/iris.avif",
+            "price": 600
+          }
+        },
+        {
+          "selenite grey": {
+            "source": "./assets/images/amg e 53 4matic/iris (1).avif",
+            "price": 600
+          }
+        },
+        {
+          "obsidian black metallic": {
+            "source": "./assets/images/amg e 53 4matic/iris (2).avif",
+            "price": 600
+          }
+        }
+      ],
+      "wheelTypes": ["Alloy", "Steel"]
+    },
+    {
+      "name": "Mercedes-Maybach GLS 600 4MATIC+",
+      "startingPrice": 60000,
+      "defaultImage": "./assets/images/amg gle/iris (2).avif",
+      "colors": [
+        {
+          "designo diamond white bright": {
+            "source": "./assets/images/maybach 600/iris (1).avif",
+            "price": 600
+          }
+        },
+        {
+          "polar white": {
+            "source": "./assets/images/maybach 600/iris (3).avif",
+            "price": 600
+          }
+        },
+        {
+          "brilliant blue": {
+            "source": "./assets/images/maybach 600/iris (4).avif",
+            "price": 600
+          }
+        },
+        {
+          "obsidian black / rubellite red": {
+            "source": "./assets/images/maybach 600/iris (2).avif",
+            "price": 600
+          }
+        },
+        {
+          "sojave silver": {
+            "source": "./assets/images/maybach 600/iris.avif",
+            "price": 600
+          }
+        }
+      ],
+      "wheelTypes": [
+        {
+          "r63": {
+            "source": "./assets/images/maybach 600/wheel/iris.avif",
+            "price": 1200
+          }
+        },
+        {
+          "r65": 
+            {
+              "source": "./assets/images/maybach 600/wheel/iris (1).avif",
+              "price": 1200,
+              "exterior": {
+                
+                "sojave silver":"./assets/images/maybach 600/wheel/iris (1).avif",
+                "obsidian black / rubellite red":"./assets/images/maybach 600/wheel/iris (1).avif",
+                "brilliant blue":"./assets/images/maybach 600/wheel/iris (1).avif",
+                "polar white":"./assets/images/maybach 600/wheel/iris (1).avif",
+                "designo diamond white bright":"./assets/images/maybach 600/wheel/iris (1).avif"
+              }
+            }
+          
+        }
+      ]
+    },
+    {
+      "name": "Mercedes-Maybach S 580 4MATIC",
+      "startingPrice": 80000,
+      "defaultImage": "./assets/images/amg gle/iris (3).avif",
+      "colors": ["White", "Silver", "Red", "Blue"],
+      "wheelTypes": ["Alloy", "Steel"]
+    }
+  ]
+}
