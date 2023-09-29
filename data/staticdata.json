@@ -7,12 +7,41 @@
       "./assets/images/carousel/iris (3).avif"
     ]
   },
-
+  "wheelObj": {
+    "r63": "./assets/images/wheel/r63.webp",
+    "r65": "./assets/images/wheel/r65.webp",
+    "i21": "./assets/images/wheel/i21.webp",
+    "i19": "./assets/images/wheel/i19.webp",
+    "i20": "./assets/images/wheel/i20.webp"
+  },
+  "colorNameObj":{
+    "sojave silver":
+    "./assets/images/colors/3b8f1b22c62c64ed99b7b095af7c8f0c50695.webp",
+  "polar white": "./assets/images/colors/polar white.webp",
+  "brilliant blue": "/assets/images/colors/brilliant blue.webp",
+  "emerald green": "/assets/images/colors/emerald green.webp",
+  "selenite grey": "/assets/images/colors/selenite grey.webp",
+  "obsidian black / rubellite red": "/assets/images/colors/two tone.webp",
+  "designo diamond white bright": "/assets/images/colors/diamond white.webp",
+  "patagonia red bright": "/assets/images/colors/red.webp",
+  "obsidian black metallic": "/assets/images/colors/black metallic.webp"
+  },
+  "interiorObj":{
+    "nappa leather black": "./assets/images/interior/black.webp",
+  "nappa leather mahogany brown": "./assets/images/interior/brown.webp",
+  "nappa leather designo crystal white": "./assets/images/interior/white.webp",
+  "amg nappa leather black": "./assets/images/interior/kappa.webp",
+  "amg nappa leather truffle": "./assets/images/interior/kappa 1.webp"
+  },
   "cars": [
     {
-      "name": "Mercedes-AMG GLE 53 4MATIC+ Coupé",
+      "name": "Mercedes-AMG GLE 53 4MATIC+ Coupe",
       "startingPrice": 65000,
       "defaultImage": "./assets/images/amg gle/iris.avif",
+      "description": {
+        "property": ["displacement", "transmission", "acceleration 0-100(s)"],
+        "values": ["3982", "9G-TRONIC", "4.9"]
+      },
       "colors": [
         {
           "polar white": {
@@ -33,12 +62,38 @@
           }
         }
       ],
-      "wheelTypes": ["Alloy", "Steel", "Chrome"]
+      "wheelTypes": [
+        {
+          "i21": {
+            "price": 1900,
+            "exterior": {
+              "polar white": "./assets/images/amg gle/wheel/i21/iris.avif",
+              "brilliant blue": "./assets/images/amg gle/wheel/i21/iris (1).avif",
+              "emerald green": "./assets/images/amg gle/wheel/i21/iris.webp"
+            }
+          }
+        }
+      ],
+      "interior": [
+        {
+          "amg nappa leather black": "./assets/images/amg gle/interior/iris (1).avif",
+          "price": 200
+        },
+        {
+          "amg nappa leather truffle": "./assets/images/amg gle/interior/iris.avif",
+          "price": 200
+        }
+      ]
     },
     {
       "name": "Mercedes-AMG E 53 4MATIC+",
       "startingPrice": 70000,
       "defaultImage": "./assets/images/amg gle/iris (1).avif",
+      "description": {
+        "property": ["displacement", "transmission", "acceleration 0-100(s)"],
+        "values": ["3982", "9G-TRONIC", "4.9"]
+      },
+
       "colors": [
         {
           "patagonia red bright": {
@@ -59,12 +114,47 @@
           }
         }
       ],
-      "wheelTypes": ["Alloy", "Steel"]
+      "wheelTypes": [
+        {
+          "i19": {
+            "price": 1900,
+            "exterior": {
+              "patagonia red bright": "./assets/images/amg e 53 4matic/wheel/i19/iris.avif",
+              "selenite grey": "./assets/images/amg e 53 4matic/wheel/i19/iris (2).avif",
+              "obsidian black metallic": "./assets/images/amg e 53 4matic/wheel/i19/iris (1).avif"
+            }
+          }
+        },
+        {
+          "i20": {
+            "price": 1200,
+            "exterior": {
+              "patagonia red bright": "./assets/images/amg e 53 4matic/wheel/i20/iris.avif",
+              "selenite grey": "./assets/images/amg e 53 4matic/wheel/i20/iris (2).avif",
+              "obsidian black metallic": "./assets/images/amg e 53 4matic/wheel/i20/iris (1).avif"
+            }
+          }
+        }
+      ],
+      "interior": [
+        {
+          "amg nappa leather black": "./assets/images/amg gle/interior/iris (1).avif",
+          "price": 200
+        },
+        {
+          "amg nappa leather truffle": "./assets/images/amg gle/interior/iris.avif",
+          "price": 200
+        }
+      ]
     },
     {
       "name": "Mercedes-Maybach GLS 600 4MATIC+",
       "startingPrice": 60000,
-      "defaultImage": "./assets/images/amg gle/iris (2).avif",
+      "defaultImage": "./assets/images/maybach 600/iris (1).avif",
+      "description": {
+        "property": ["displacement", "transmission", "acceleration 0-100(s)"],
+        "values": ["3982", "9G-TRONIC", "4.9"]
+      },
       "colors": [
         {
           "designo diamond white bright": {
@@ -81,7 +171,7 @@
         {
           "brilliant blue": {
             "source": "./assets/images/maybach 600/iris (4).avif",
-            "price": 600
+            "price": 800
           }
         },
         {
@@ -100,25 +190,41 @@
       "wheelTypes": [
         {
           "r63": {
-            "source": "./assets/images/maybach 600/wheel/iris.avif",
-            "price": 1200
+            "price": 1900,
+            "exterior": {
+              "sojave silver": "./assets/images/maybach 600/wheel/r63/silver.avif",
+              "obsidian black / rubellite red": "./assets/images/maybach 600/wheel/r63/iris (1).avif",
+              "brilliant blue": "./assets/images/maybach 600/wheel/r63/blue.avif",
+              "polar white": "./assets/images/maybach 600/wheel/r63/white.avif",
+              "designo diamond white bright": "./assets/images/maybach 600/wheel/r63/dwhite.avif"
+            }
           }
         },
         {
-          "r65": 
-            {
-              "source": "./assets/images/maybach 600/wheel/iris (1).avif",
-              "price": 1200,
-              "exterior": {
-                
-                "sojave silver":"./assets/images/maybach 600/wheel/iris (1).avif",
-                "obsidian black / rubellite red":"./assets/images/maybach 600/wheel/iris (1).avif",
-                "brilliant blue":"./assets/images/maybach 600/wheel/iris (1).avif",
-                "polar white":"./assets/images/maybach 600/wheel/iris (1).avif",
-                "designo diamond white bright":"./assets/images/maybach 600/wheel/iris (1).avif"
-              }
+          "r65": {
+            "price": 1200,
+            "exterior": {
+              "sojave silver": "./assets/images/maybach 600/wheel/r65/iris.webp",
+              "obsidian black / rubellite red": "./assets/images/maybach 600/wheel/r65/iris.avif",
+              "brilliant blue": "./assets/images/maybach 600/wheel/r65/blue.webp",
+              "polar white": "./assets/images/maybach 600/wheel/r65/white.avif",
+              "designo diamond white bright": "./assets/images/maybach 600/wheel//r65/dwhite.webp"
             }
-          
+          }
+        }
+      ],
+      "interior": [
+        {
+          "nappa leather black": "./assets/images/maybach 600/interior/iris (1).webp",
+          "price": 200
+        },
+        {
+          "nappa leather mahogany brown": "./assets/images/maybach 600/interior/iris.avif",
+          "price": 200
+        },
+        {
+          "nappa leather designo crystal white": "./assets/images/maybach 600/interior/iris.webp",
+          "price": 200
         }
       ]
     },
@@ -126,6 +232,10 @@
       "name": "Mercedes-Maybach S 580 4MATIC",
       "startingPrice": 80000,
       "defaultImage": "./assets/images/amg gle/iris (3).avif",
+      "description": {
+        "property": ["displacement", "transmission", "acceleration 0-100(s)"],
+        "values": ["3982", "9G-TRONIC", "4.9"]
+      },
       "colors": ["White", "Silver", "Red", "Blue"],
       "wheelTypes": ["Alloy", "Steel"]
     }

@@ -17,31 +17,38 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
             rel="stylesheet">
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <title>Car Website</title>
     </head>
     <body>
         <header>
-            <div class="logo-wrapper">
-                <span class="logo">logo</span>
+            <div class="header-content-wrapper">
+                
+                    <div class="logo-wrapper">
+                        <div class="logo"><img src="/assets/png/logo.png" alt="logo"></div>
+                    </div>
+        
+                    <nav>
+                        <ul class="nav-list">
+                            <li class="nav-el active-nav-el"><a href="">home</a></li>
+                            <li class="nav-el"><a href="">contact us</a></li>
+                            <li class="nav-el"><a href="">our services</a></li>
+                            <li class="nav-el"><a href="">log in</a></li>
+                        </ul>
+                    </nav>
+                    <div class="NavigationStyles__HamburgerButton-sc-zlirk0-6
+                        hamburger-btn lbwthk"></div>
+                
             </div>
-            <nav>
-                <ul>
-                    <li class="nav-el active-nav-el"><a href="">home</a></li>
-                    <li class="nav-el"><a href="">contact us</a></li>
-                    <li class="nav-el"><a href="">our services</a></li>
-                    <li class="nav-el"><a href="">log in</a></li>
-                </ul>
-            </nav>
         </header>
+    </div>
         <section id="hero-section">
             <main>
                 <div class="hero-text-search-wrapper">
                     <div class="hero-text">
                         <span class="caption">find your perfect ride</span>
-                        <span class="caption-desc string">your trusted source
-                            for buying a car</span>
+                        <span class="caption-desc string">your trusted source for buying a car</span>
                     </div>
                     <div class="hero-carousel">
 
@@ -55,10 +62,11 @@
         </section>
         <section id="plp-section">
             <h1>available rides</h1>
+            
             <div class="car-container">
 
             </div>
-            <div class="builder-container">
+            <div class="builder-container" >
                 <span class="close-container"><i class="fa-solid fa-xmark"></i></span>
                 <span class="car-title">X4 xDrive30i</span>
                 <div class="build-car-image">
@@ -66,29 +74,73 @@
 
 
                 </div>
+                
                 <div class="car-properties">
                     <span class="property-heading">modify your car</span>
+                    <div class="final-price-div">
+                        <span class="final-price">$60000</span>
+                    </div>
                 </div>
                 <div class="property-name-price-wrapper">
                     <div class="property-name-wrapper">
-                        <div class="property colors">
-                            colors
-                            <div class="property-values ">
+                        <a href="">
+                            <div class="property colors">
+                                colors
+                                <div class="property-values " data-aos="zoom-in">
 
+                                </div>
                             </div>
-                        </div>
-                        <div class="property wheels">wheel
-                            <div class="property-values ">
+                        </a>
+                        <a href="">
+                            <div class="property wheels">wheel
+                                <div class="property-values ">
 
+                                </div>
                             </div>
-                        </div>
-                        <div class="property interior">interior</div>
+                        </a>
+                        <a href="">
+                            <div class="property interiors">interior
+                                <div class="property-values ">
+
+                                </div>
+                            </div>
+                        </a>
 
                     </div>
-                    <div class="final-price-div">
-                        <span class="final-price">$60,000</span>
+                    <div class="final-build-container hide" >
+                        <span class="close-container summary-close"><i class="fa-solid fa-xmark"></i></span>
+                            <div class="final-exterior-image">
+                                <img class="final-ext-int-image" src="./assets/images/carousel1.png"  alt="final exterior image">
+                            </div>
+                            <div class="final-build-button-wrapper">
+                                <button class="show-exterior-btn button">exterior</button>
+                                <button class="show-interior-btn button">interior</button>
+                            </div>
+                            <div class="item-names-price-div">
+                                <ul class="property-header">
+                                    
+                                </ul>
+                                <ul class="item-name">
+                                    
+                                </ul>
+                                <ul class="price-items">
+                                    
+
+                                    
+                                </ul>
+                            </div>
+                            <div class="summary-final-price-container">
+                                <span>final price:</span>
+                                <span class="summary-final-price">$6000</span>
+                            </div>
                     </div>
+                    <div class="show-summary-wrapper">
+                        
+                        <button class="show-summary button">show summary</button>
+                    </div>
+                    
                 </div>
+                
 
 
 
@@ -97,8 +149,103 @@
 
 
 
+        <footer>
 
-        <script src="./js/script.js"></script>
+
+            <a href="#hero-section">
+                <div id="scroll-to-top">
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
+            </a>
+            <div class="subscribe-follow">
+                <div class="stay-in-touch-subscribe">
+                    <div class="stay-in-touch-text">
+                        <span>let's stay in touch</span>
+                        <span>get updates on sales specials and more</span>
+                    </div>
+                    <div class="subscribe-text">
+                        <div class="input-box-div">
+                            <input type="text" name="" id="email-input"
+                                placeholder="Email" class="input-box">
+                            <i class="fa-solid fa-circle-check" id="verified"></i>
+                            <i class="fa-solid fa-circle-xmark"
+                                id="not-verified"></i>
+                            <button id="subscribe-btn">subscribe</button>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="follow-kraya-div">
+                    <div class="follow-kraya-text">
+                        <span>follow us.</span>
+                        <span>We want to hear from you</span>
+                    </div>
+                    <div class="social-media-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-about">
+
+                <ul>
+                    <li id="footer-list-heading">about</li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+                <ul>
+                    <li id="footer-list-heading">support</li>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellation</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+                <ul>
+                    <li id="footer-list-heading">policy</li>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Intellectual Property</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Security</a></li>
+                </ul>
+                <div class="mail-us">
+                    <span class="footer-list-heading">mail us</span>
+                    <span>17187 N. Laurel Park Dr., Ste. 110 Livonia, MI 48152
+                        USA</span>
+                </div>
+                <div class="contact-number">
+                    <span>1800 123 4567</span>
+                    <span>Service hours: 09:00-21:00</span>
+                    <div class="btn-chat-support">
+                        <a href="#">CHAT SUPPORT</a>
+                    </div>
+                    <div class="payment-methods">
+                        <span>PAYMENT METHODS</span>
+                        <div class="payment-icons">
+                            <img src="/assets/images/credit-card.png" alt="payment">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <span>Copyright © 2010 - 2018 commerce factory. All Rights
+                    Reserved</span>
+                        
+            </div>
+        </footer>
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+        <script src="./js/script.js" type="module"></script>
+        <script src="./js/side functions" type="module"></script>
         <script src="https://code.jquery.com/jquery-3.7.0.js"
             integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
             crossorigin="anonymous"></script>
